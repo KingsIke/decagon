@@ -1,0 +1,128 @@
+body{
+    background-color: #747399;
+}
+.color{
+   background-color:#EA4C3C ;
+    height: 1000px;
+    width: 10%;
+    /* border: 1px solid greenyellow; */
+    border-radius: 20px;
+    
+}
+header{
+    position:absolute;
+    top: 30px;
+    left: 20;
+    display: flex;
+    height: 75vh;
+    width: 80%;
+    /* border: 1px solid pink; */
+    margin-left: 60px;
+    margin-top: 80px;
+    border-radius: 20px;
+
+}
+.one{
+    align-items: stretch;
+    /* border: 1px solid blue; */
+    width: 10%;
+    border-radius: 19.5px 0px 0px 19.5px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #9292AE;
+    font-size: large;
+    font-family:  "Trirong", serif;
+    
+}
+
+.profile img{
+    float: left;
+}
+
+#log{
+    margin-top: 150px;
+}
+#spacing{
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.two{
+    align-items: stretch;
+    /* border: 1px solid goldenrod; */
+    width: 90%;
+    border-radius: 0px 19.5px 19.5px 0px;
+    padding: 30px;
+    padding-left: 50px;
+    background-color: #F1F1FB;
+    font-family:  "Trirong", serif;
+    /* font-size: 2.5em; */
+
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    align-content: space-between;
+  }
+  th, td {
+      text-align: left;
+      padding: 12px;
+      
+  }
+  td{
+      font-weight: bold;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+   button{
+      background-color: white;
+      color: black;
+      border: 2px solid #e7e7e7;
+      border-radius:5px ;
+      text-align: center;
+      margin: 10px;
+      font-weight: bold;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+}
+  
+#load{
+    color: #EA4C3C;
+}
+.pay{
+    padding-top: 10px;
+}
+.pay #p{
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.position{
+    position:absolute;
+    right: 550px;
+    top: 250px;
+    background-color:#EA4C3C ;
+    color: white;
+    height: 16em;
+    width: 16em;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 15px;
+    text-align: justify;
+    font-weight: 900;
+    font-size: large;
+    line-height: 2;
+}
+.position button{
+    background-color: #EA4C3C;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 1px solid whitesmoke;
+    text-align: center;
+
+}
